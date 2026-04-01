@@ -1,0 +1,4 @@
+node_modules
+.obsidian
+build
+.DS_Store

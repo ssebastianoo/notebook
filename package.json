@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "katex": "^0.16.44",
+    "marked": "^17.0.5",
+    "marked-katex-extension": "^5.1.7",
+    "marked-shiki": "^1.2.1",
+    "shiki": "^4.0.2"
+  },
+  "scripts": {
+    "build": "bun main.js",
+    "serve": "bun run build && bun build/./**/*.{html,js,css,ttf,otf}"
+  }
+}
