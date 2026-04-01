@@ -95,13 +95,11 @@
 }
 
 body {
-    width: 100%;
-    max-width: 800px;
-    margin: auto;
-
     background-color: #faf9f5;
     color: hsl(60 2.6% 7.6%);
-
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
     font-family:
         "Copernicus",
         system-ui,
@@ -110,6 +108,13 @@ body {
         Roboto,
         "Helvetica Neue",
         sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
 @media (prefers-color-scheme: dark) {

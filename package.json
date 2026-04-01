@@ -8,6 +8,6 @@
   },
   "scripts": {
     "build": "bun main.js",
-    "serve": "bun run build && bun build/./**/*.{html,js,css,ttf,otf}"
+    "serve": "bun run build && bun --host serve.js"
   }
 }
