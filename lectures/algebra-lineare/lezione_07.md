@@ -43,7 +43,7 @@ Siano $\mathcal{B} = (v_1,\ldots,v_n)$ e $\mathcal{B}' = (w_1,\ldots,w_n)$ due b
 
 $$[v]_{\mathcal{B}} = \begin{pmatrix}\lambda_1\\\vdots\\\lambda_n\end{pmatrix}, \qquad [v]_{\mathcal{B}'} = \begin{pmatrix}\mu_1\\\vdots\\\mu_n\end{pmatrix}$$
 
-La relazione tra le due rappresentazioni è data dalla **matrice di cambiamento di base** $P$ (o $M_{\mathcal{B}\to\mathcal{B}'}$), le cui colonne sono le coordinate dei $v_j$ rispetto a $\mathcal{B}'$:
+La relazione tra le due rappresentazioni è data dalla **matrice di cambiamento di base** $P$ (o $M_{\mathcal{B}\to\mathcal{B}'} $ ), le cui colonne sono le coordinate dei $v_j$ rispetto a $\mathcal{B}'$:
 
 $$[v]_{\mathcal{B}'} = P\,[v]_{\mathcal{B}}$$
 
@@ -158,8 +158,8 @@ In $\mathbb{K}^n$, $n$ vettori $v_1,\ldots,v_n$ formano una base **se e solo se*
 
 | Concetto | Definizione / Risultato |
 |---|---|
-| Base canonica di $\mathbb{K}^n$ | $(e_1,\ldots,e_n)$, vettori della "identità" |
-| Coordinate | $n$-upla univoca di scalari per rappresentare $v$ in base $\mathcal{B}$ |
+| Base canonica di $\mathbb{K}^n$ | $(e_1,\ldots,e_n)$ , vettori della "identità" |
+| Coordinate | $n$ -upla univoca di scalari per rappresentare $v$ in base $\mathcal{B}$ |
 | Estrarre base da generatori | Eliminazione di Gauss, selezione colonne-pivot |
 | Lemma di Steinitz | $m$ vettori l.i., $k$ generatori $\implies m \leq k$ |
 | Tutte le basi equicardinate | Unica cardinalità possibile per le basi |

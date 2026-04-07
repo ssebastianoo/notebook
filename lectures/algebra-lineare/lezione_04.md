@@ -76,7 +76,7 @@ Un sistema lineare può essere:
 
 ### 3.1 Definizione assiomatica
 
-> **Definizione.** Sia $\mathbb{K}$ un campo (tipicamente $\mathbb{R}$ o $\mathbb{C}$). Uno **spazio vettoriale su $\mathbb{K}$** è un insieme non vuoto $V$ dotato di due operazioni:
+> **Definizione.** Sia $\mathbb{K}$ un campo (tipicamente $\mathbb{R}$ o $\mathbb{C}$ ). Uno **spazio vettoriale su $\mathbb{K}$** è un insieme non vuoto $V$ dotato di due operazioni:
 >
 > - **Somma:** $+: V \times V \to V$
 > - **Prodotto per scalare:** $\cdot: \mathbb{K} \times V \to V$
@@ -104,7 +104,7 @@ $$\mathbf{0} = \mathbf{0} + \mathbf{0}' = \mathbf{0}'$$
 
 **Dimostrazione di (1):** $0 \cdot v = (0+0)\cdot v = 0 \cdot v + 0 \cdot v$. Sottraendo $0 \cdot v$ da entrambi i lati: $\mathbf{0} = 0 \cdot v$. $\square$
 
-**Dimostrazione di (3):** $v + (-1)v = 1\cdot v + (-1)v = (1-1)v = 0 \cdot v = \mathbf{0}$. Dunque $(-1)v$ è l'opposto di $v$. $\square$
+**Dimostrazione di (3):** $v + (-1)v = 1\cdot v + (-1)v = (1-1)v = 0 \cdot v = \mathbf{0}$ . Dunque $(-1)v$ è l'opposto di $v$. $\square$
 
 ---
 
@@ -129,7 +129,7 @@ $$\mathbf{0} = \mathbf{0} + \mathbf{0}' = \mathbf{0}'$$
 |---|---|
 | Spazio vettoriale | Insieme con $+$ e $\cdot$ soddisfacenti 10 assiomi |
 | Vettore nullo | Unico; soddisfa $\mathbf{0} + v = v$ |
-| Opposto | Unico; $v + (-v) = \mathbf{0}$; coincide con $(-1)v$ |
+| Opposto | Unico; $v + (-v) = \mathbf{0}$ ; coincide con $(-1)v$ |
 | Sistema lineare | $m$ equazioni lineari in $n$ incognite: $Ax = b$ |
 | Matrice aumentata | $(A\mid b)$: contiene tutta l'info del sistema |
 

@@ -13,7 +13,7 @@ $$z^n = w$$
 
 ### 1.2 Formula per le radici
 
-Sia $w = \rho\,e^{i\varphi}$ (con $\rho = |w|$, $\varphi = \arg(w)$). Le radici $n$-esime di $w$ sono esattamente **$n$ numeri distinti**:
+Sia $w = \rho\,e^{i\varphi}$ (con $\rho = |w|$, $\varphi = \arg(w)$ ). Le radici $n$ -esime di $w$ sono esattamente **$n$ numeri distinti**:
 
 $$\boxed{z_k = \sqrt[n]{\rho}\,\exp\!\left(i\,\frac{\varphi + 2\pi k}{n}\right), \quad k = 0, 1, \ldots, n-1}$$
 
@@ -128,7 +128,7 @@ La definizione assiomatica precisa (con tutte le proprietà richieste) sarà dat
 
 | Argomento | Risultato chiave |
 |---|---|
-| Radici $n$-esime di $w = \rho e^{i\varphi}$ | $z_k = \sqrt[n]{\rho}\,e^{i(\varphi+2\pi k)/n}$, $k=0,\ldots,n-1$ |
+| Radici $n$ -esime di $w = \rho e^{i\varphi}$ | $z_k = \sqrt[n]{\rho}\,e^{i(\varphi+2\pi k)/n}$ , $k=0,\ldots,n-1$ |
 | Radici dell'unità | $\omega_k = e^{i2\pi k/n}$, poligono regolare |
 | TF dell'Algebra | ogni $p$ di grado $n$ ha esattamente $n$ radici in $\mathbb{C}$ |
 | Spazio vettoriale (idea) | insieme con somma e prodotto per scalare |

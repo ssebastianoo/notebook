@@ -37,6 +37,8 @@ const files = fs.readdirSync("lectures", { recursive: true });
 const lectures = [];
 
 for (const file of files) {
+  if (file.startsWith(".")) continue;
+
   process.stdout.write(`Parsing ${file}`);
 
   const isFile = fs.statSync(`lectures/${file}`).isFile();
